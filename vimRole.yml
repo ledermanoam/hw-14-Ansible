@@ -1,0 +1,5 @@
+---
+# file: vimRole.yml
+# - hosts: linux
+#   roles:
+#       - vimRole

@@ -1,0 +1,7 @@
+---    
+    - hosts: linux
+      tasks:
+       - name: nano remove
+         yum: name=nano state=absent
+       - name: vim install
+         yum: name=vim state=latest
